@@ -1,0 +1,67 @@
+body {
+  background-color: #0b192c; /* Nasiksikapil a duyaw nga agpakated iti arkitektura ti sistema */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #1e3e62; /* Naberde ken nasiksikapil a duyaw nga agpara iti pannakaisina ti tarheta */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+  width: 90%;
+  color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #93bfcf;
+  font-size: 18px;
+}
+
+p {
+  color: #e2e8f0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Dagiti dibision wenno paset ti tarheta */
+.bio, .contact-info, .social-links {
+  background-color: #0b192c;
+  border: 1px solid #3d52a0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+img.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: #93bfcf;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
